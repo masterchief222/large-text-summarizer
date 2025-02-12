@@ -21,18 +21,21 @@ The study evaluates and fine-tunes two transformer-based models specifically des
    - Uses a sliding window attention mechanism to efficiently process long documents.
    - Maintains computational efficiency while preserving contextual dependencies in lengthy texts.
 
+## Evaluation Metrics
+To assess the final quality of the generated summaries, we compare them against the original article abstracts using **Cosine Similarity** alongside the **ROUGE** metric. Cosine Similarity helps measure the semantic closeness between the generated summary and the reference abstract by analyzing their vector representations.
+
 ### Cosine Similarity
 - Computes the **cosine of the angle** between the summary and original abstract vectors.
 - Higher values indicate better semantic similarity and content retention.
 
-## Evaluation Metrics
-To assess the quality and effectiveness of the generated summaries, the project employs the **ROUGE** (Recall-Oriented Understudy for Gisting Evaluation) metric:
+### ROUGE Score
+To ensure high-quality summarization, we employ the **ROUGE** (Recall-Oriented Understudy for Gisting Evaluation) metric:
 
-- **ROUGE-1**: Measures the overlap of unigrams (single words) between the reference and generated summary.
-- **ROUGE-2**: Evaluates the overlap of bigrams (two-word sequences) for capturing phrase-level similarities.
-- **ROUGE-L**: Considers the longest common subsequence (LCS) to measure sentence-level structural similarity.
+- **ROUGE-1**: Measures **word-level** overlap.
+- **ROUGE-2**: Evaluates **phrase-level** coherence.
+- **ROUGE-L**: Captures **sentence structure** consistency.
 
-Higher ROUGE scores indicate better summarization performance, with an emphasis on maintaining key information while ensuring fluency and coherence.
+Higher ROUGE scores indicate **better summary accuracy, coherence, and fluency**.
 
 ## Contributors
 
