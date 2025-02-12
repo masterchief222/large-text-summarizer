@@ -21,6 +21,10 @@ The study evaluates and fine-tunes two transformer-based models specifically des
    - Uses a sliding window attention mechanism to efficiently process long documents.
    - Maintains computational efficiency while preserving contextual dependencies in lengthy texts.
 
+### Cosine Similarity
+- Computes the **cosine of the angle** between the summary and original abstract vectors.
+- Higher values indicate better semantic similarity and content retention.
+
 ## Evaluation Metrics
 To assess the quality and effectiveness of the generated summaries, the project employs the **ROUGE** (Recall-Oriented Understudy for Gisting Evaluation) metric:
 
@@ -30,10 +34,10 @@ To assess the quality and effectiveness of the generated summaries, the project 
 
 Higher ROUGE scores indicate better summarization performance, with an emphasis on maintaining key information while ensuring fluency and coherence.
 
-## 🤝 Contributors
+## Contributors
 
 - **[Hana Esfandiar](https://github.com/Hana-esf)** - Co-Researcher  
-- **[Modjtaba Rouhani](https://scholar.google.com/citations?user=nPuuMikAAAAJ&hl=en)** - Supervisior
+- **[Modjtaba Rouhani](https://scholar.google.com/citations?user=nPuuMikAAAAJ&hl=en)** - Supervisor Professor
 ---
 
 This repository contains the Jupyter Notebook used for data preprocessing, model fine-tuning, and evaluation. Contributions and suggestions for further improvements are welcome!
