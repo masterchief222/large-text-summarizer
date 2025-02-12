@@ -30,6 +30,9 @@ To assess the quality and effectiveness of the generated summaries, the project 
 
 Higher ROUGE scores indicate better summarization performance, with an emphasis on maintaining key information while ensuring fluency and coherence.
 
+## 🤝 Contributors
+- **[Alireza Abbaszadeh]** - me 
+- **[Hana Esfandiar](https://github.com/Hana-esf)** - Co-Researcher  
 ---
 
 This repository contains the Jupyter Notebook used for data preprocessing, model fine-tuning, and evaluation. Contributions and suggestions for further improvements are welcome!
